@@ -1,12 +1,14 @@
 {
   "name": "demo",
   "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
   "scripts": {
-    "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
-    "test": "jest --watchAll"
+    "start": "expo start",
+    "test": "jest --watchAll",
+    "web": "expo start --web"
   },
   "jest": {
     "preset": "jest-expo"
@@ -37,6 +39,5 @@
     "jest-expo": "~48.0.0",
     "react-test-renderer": "18.2.0",
     "typescript": "^4.9.4"
-  },
-  "private": true
+  }
 }
