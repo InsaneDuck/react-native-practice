@@ -1,4 +1,4 @@
-import Search from "../../src/components/tabs/Search";
+import Search from "../../components/tabs/Search";
 
 const SearchTab = () => {
     return <Search/>

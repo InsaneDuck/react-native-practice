@@ -2,7 +2,7 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { useFonts } from 'expo-font';
 import { SplashScreen } from 'expo-router';
 import { useEffect } from 'react';
-import {RootLayoutNav} from "../src/components/RootLayoutNav";
+import {RootLayoutNav} from "../components/RootLayoutNav";
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -16,7 +16,7 @@ export const unstable_settings = {
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    SpaceMono: require('../src/assets/fonts/SpaceMono-Regular.ttf'),
+    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
     ...FontAwesome.font,
   });
 

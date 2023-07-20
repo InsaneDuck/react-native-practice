@@ -1,4 +1,4 @@
-import Inbox from "../../src/components/tabs/Inbox";
+import Inbox from "../../components/tabs/Inbox";
 
 export default function TabTwoScreen() {
   return <Inbox/>

@@ -1,4 +1,4 @@
-import Profile from "../../src/components/tabs/Profile";
+import Profile from "../../components/tabs/Profile";
 
 const ProfileTab = () => {
     return <Profile/>
